@@ -22,3 +22,8 @@ This is an Web for the Shipment Tracking built with Codeigniter 3. PHP version r
 - Access Local Website
 [http://localhost/shipment-tracking](http://localhost/shipment-tracking/)
 
+
+## Sample Tracking Number for Testing
+- S24DEMO169411
+- S24DEMO456393
+
