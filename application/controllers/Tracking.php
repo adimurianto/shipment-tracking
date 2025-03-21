@@ -11,19 +11,6 @@ class Tracking extends CI_Controller {
         $this->load->view('tracking_form');
     }
 
-    // public function track() {
-    //     $trackingNumber = $this->input->post('tracking_number');
-
-    //     if (!$trackingNumber) {
-    //         $this->session->set_flashdata('error', 'Masukkan nomor tracking!');
-    //         redirect('tracking');
-    //     }
-
-    //     $data['trackingNumber'] = $trackingNumber;
-    //     $data['result'] = $this->shipmentapi->trackShipment($trackingNumber);
-
-    //     $this->load->view('tracking_result', $data);
-    // }
     public function track() {
         $trackingNumber = $this->input->post('tracking_number');
 
